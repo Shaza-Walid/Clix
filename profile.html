@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="left-buttons">
+            <button class="top-btn" onclick="window.location.href='posts.html'">All Posts</button>
+            <button class="top-btn" onclick="window.location.href='add.html'">Add New Post</button>
+        </div>
+        <h2 id="welcome">Welcome 👋</h2>
+        <div class="right-buttons">
+            <button class="top-btn" onclick="window.location.href='logout.php'">Logout</button>
+        </div>
+    </div>
+    <div class="containers">
+        <h3>Your Posts:</h3>
+        <div id="posts"></div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+
+</html>
